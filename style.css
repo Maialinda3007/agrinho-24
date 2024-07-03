@@ -1,0 +1,41 @@
+@import url("styles/headers.css");
+@import url("styles/box.css");
+@import url("styles/carrossel.css");
+
+:root {
+    --cor-de-fundo: #c9f8d5;
+    --branco: #FFFFFF;
+    --marrom: #c9f8d5;
+    --vermelho: #be1f07;
+    --fonte-principal: "Poppins";
+    --preto: #000000;
+    --amarelo : #7bac6c; 
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.final-box{
+    background-color: #7bac6c;
+    width: 950px;
+    height: 80px;
+    text-align: center;
+    margin: auto;  
+}
+  
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
