@@ -20,6 +20,12 @@
     
 }
 
+.carrosel_titulo{
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
 .box{
    background: transparent;
    display: inline-flex;  
